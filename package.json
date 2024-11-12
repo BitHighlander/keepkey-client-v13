@@ -14,6 +14,13 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "@coinmasters/pioneer-sdk": "^4.8.2",
+    "@coinmasters/types": "^4.8.2",
+    "@pioneer-platform/helpers": "^4.0.13",
+    "@pioneer-platform/pioneer-caip": "^9.2.37",
+    "@pioneer-platform/pioneer-coins": "^9.2.24",
+    "@plasmohq/messaging": "^0.6.2",
+    "axios": "^1.7.7",
     "mipd": "^0.0.7",
     "plasmo": "0.89.4",
     "react": "18.2.0",
