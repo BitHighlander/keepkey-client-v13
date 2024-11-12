@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      mipd:
+        specifier: ^0.0.7
+        version: 0.0.7(typescript@5.3.3)
       plasmo:
         specifier: 0.89.4
         version: 0.89.4(@swc/core@1.9.2(@swc/helpers@0.5.15))(@swc/helpers@0.5.15)(lodash@4.17.21)(postcss@8.4.49)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -17,6 +20,9 @@ importers:
       react-dom:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
+      uuid:
+        specifier: ^11.0.3
+        version: 11.0.3
     devDependencies:
       '@ianvs/prettier-plugin-sort-imports':
         specifier: 4.1.1
@@ -2378,6 +2384,14 @@ packages:
     resolution: {integrity: sha512-qOOzS1cBTWYF4BH8fVePDBOO9iptMnGUEZwNc/cMWnTV2nVLZ7VoNWEPHkYczZA0pdoA7dl6e7FL659nX9S2aw==}
     engines: {node: '>=16 || 14 >=14.17'}
 
+  mipd@0.0.7:
+    resolution: {integrity: sha512-aAPZPNDQ3uMTdKbuO2YmAw2TxLHO0moa4YKAyETM/DTj5FloZo+a+8tU+iv4GmW+sOxKLSRwcSFuczk+Cpt6fg==}
+    peerDependencies:
+      typescript: '>=5.0.4'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
   mkdirp-classic@0.5.3:
     resolution: {integrity: sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A==}
 
@@ -2974,6 +2988,10 @@ packages:
   utility-types@3.11.0:
     resolution: {integrity: sha512-6Z7Ma2aVEWisaL6TvBCy7P8rm2LQoPv6dJ7ecIaIixHcwfbJ0x7mWdbcwlIM5IGQxPZSFYeqRCqlOOeKoJYMkw==}
     engines: {node: '>= 4'}
+
+  uuid@11.0.3:
+    resolution: {integrity: sha512-d0z310fCWv5dJwnX1Y/MncBAqGMKEzlBb1AOf7z9K8ALnd0utBX/msg/fA0+sbyN1ihbMsLhrBlnl1ak7Wa0rg==}
+    hasBin: true
 
   vue@3.3.4:
     resolution: {integrity: sha512-VTyEYn3yvIeY1Py0WaYGZsXnz3y5UnGi62GjVEqvEGPl6nxbOrCXbVOTQWBEJUqAyTUk2uJ5JLVnYJ6ZzGbrSw==}
@@ -5651,6 +5669,10 @@ snapshots:
 
   minipass@7.1.2: {}
 
+  mipd@0.0.7(typescript@5.3.3):
+    optionalDependencies:
+      typescript: 5.3.3
+
   mkdirp-classic@0.5.3: {}
 
   mnemonic-id@3.2.7: {}
@@ -6340,6 +6362,8 @@ snapshots:
   util-deprecate@1.0.2: {}
 
   utility-types@3.11.0: {}
+
+  uuid@11.0.3: {}
 
   vue@3.3.4:
     dependencies:
