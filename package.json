@@ -14,6 +14,7 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "ethers": "^6.13.4",
     "mipd": "^0.0.7",
     "plasmo": "0.89.4",
     "react": "18.2.0",
